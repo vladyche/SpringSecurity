@@ -26,7 +26,7 @@ INSERT INTO users(id, username, password, role_id) VALUES (1, 'Name1', '$2y$10$A
 INSERT INTO users(id, username, password, role_id) VALUES (2, 'Name2', '$2y$10$0f/zxqKSHfWM/0dJcPvQ0.AUdyuXyz3j5PNLdk5/Q.L8UrcPvp3eC', 2);
 
 INSERT INTO roles(id, name) VALUES (1, 'ADMIN');
-INSERT INTO roles(id, name) VALUES (2, 'MANAGER');
+INSERT INTO roles(id, name) VALUES (2, 'USER');
 
 SELECT * FROM users WHERE id = 1;
 SELECT * FROM roles WHERE id = 1;

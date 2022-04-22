@@ -4,11 +4,11 @@
 
 <html>
 <head>
-    <title>Home</title>
+    <title>Admin</title>
 </head>
 <body>
 
-<div>home page</div>
+<div>admin page</div>
 
 <div>User: <b><c:out value="${pageContext.request.remoteUser}"/></b></div>
 <div>Role: <b><sec:authentication property="principal.authorities" /></b></div>
